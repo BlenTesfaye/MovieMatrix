@@ -3,29 +3,29 @@
 ## Project Overview
 This Movie Database App aims to create a user-friendly platform for users to explore and interact with movie information. Users can view movie details and leave reviews and ratings.
 
-##Key Features
-The following are key features for the online Movie Database App:
+Key Features
+-The following are key features for the online Movie Database App:
 
-###Movie Listings:
+## Movie Listings:
 
 Display a list of movies with basic details, including title, release year, director, and genre.
 
-###Search and Filtering:
+### Search and Filtering:
 
 -Implement search functionality to find movies by title or genre.
 -Allow basic sorting options.
 
-###Review and Rating System:
+### Review and Rating System:
 
 Allow users to leave text-based reviews and numerical ratings for movies.
-###User Management: 
+### User Management: 
 
 -Enable user registration with a username. authentication and authorization for secure access to the app.
 
-##ERD 
+## ERD 
 ### for movies model, users model, and reviews and ratings model: 
 
-###Movies Model:
+### Movies Model:
 
 Attributes:
   - Title (string): The title of the movie.
@@ -37,7 +37,7 @@ Attributes:
 Relationships:
 One-to-Many with Reviews and Ratings Model: Each movie can have multiple reviews and ratings.
 
-###Users Model:
+### Users Model:
 
 Attributes:
   -Username (string): The username of the user.
@@ -47,7 +47,7 @@ Attributes:
 Relationships:
 One-to-Many with Reviews and Ratings Model: Each user can create multiple reviews and ratings.
 
-###Reviews and Ratings Model:
+### Reviews and Ratings Model:
 
 Attributes:
   -Review Text (string): The text of the movie review.
@@ -57,7 +57,7 @@ Relationships:
 Many-to-One with Movies Model: Each review and rating is associated with a single movie.
 Many-to-One with Users Model: Each review and rating is created by a single user
 
-##MVP and Stretch Goals 
+## MVP and Stretch Goals 
 
 MVP: 
 * Basic Movie Listings: includes interface to display a list of movies with essential details like title, release year, director, and genre.
