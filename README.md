@@ -1,4 +1,4 @@
-# movie-database-
+# MovieMAtrix - (an online movie-database) -
 
 ## Project Overview
 This Movie Database App aims to create a user-friendly platform for users to explore and interact with movie information. Users can view movie details and leave reviews and ratings.
