@@ -18,28 +18,29 @@ Key Features
   
 ## User Management: 
 -Enable user registration with a username. authentication and authorization for secure access to the app.
-
-### ERD 
-# for movies model, users model, and reviews and ratings model: 
+--------------------------------------------------------------------------------------------------------------------------------------
+## ERD 
+### for movies model, users model, and reviews and ratings model: 
 
 ## Movies Model:
 
 Attributes:
-  - Title (string): The title of the movie.
-  -Release Year (number): The year the movie was released.
-  -Director (string): The director of the movie.
-  -Genre (string): The genre of the movie.
-  -Description (string): A brief description of the movie.
-  -Poster URL (string): The URL of the movie's poster image.
+- Title (string): The title of the movie.
+- Release Year (number): The year the movie was released.
+- Director (string): The director of the movie.
+- Genre (string): The genre of the movie.
+- Description (string): A brief description of the movie.
+- Poster URL (string): The URL of the movie's poster image.
 Relationships:
-One-to-Many with Reviews and Ratings Model: Each movie can have multiple reviews and ratings.
+One-to-Many with Reviews and Ratings Model:
+Each movie can have multiple reviews and ratings.
 
 ## Users Model:
 
 Attributes:
-  -Username (string): The username of the user.
-  -Email (string): The email address of the user. (optional)
-  -Password (string): The hashed password of the user.
+- Username (string): The username of the user.
+- Email (string): The email address of the user. (optional)
+- Password (string): The hashed password of the user.
 
 Relationships:
 One-to-Many with Reviews and Ratings Model: Each user can create multiple reviews and ratings.
@@ -47,13 +48,13 @@ One-to-Many with Reviews and Ratings Model: Each user can create multiple review
 ## Reviews and Ratings Model:
 
 Attributes:
-  -Review Text (string): The text of the movie review.
-  -Rating (number): The numerical rating given to the movie.
+- Review Text (string): The text of the movie review.
+- Rating (number): The numerical rating given to the movie.
 
 Relationships:
 Many-to-One with Movies Model: Each review and rating is associated with a single movie.
 Many-to-One with Users Model: Each review and rating is created by a single user
-
+---------------------------------------------------------------------------------------------------------------------------
 ### MVP and Stretch Goals 
 
 # MVP: 
