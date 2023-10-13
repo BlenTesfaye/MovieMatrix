@@ -15,7 +15,7 @@ Key Features
   ## Review and Rating System:
 - Allow users to leave text-based reviews and numerical ratings for movies.
   ## User Management: 
-- Enable user registration with a username. authentication and authorization for secure access to the app.
+- Enable user to access app with a username/ name. aple to display intrests
 --------------------------------------------------------------------------------------------------------------------------------------
 ## ERD 
 ### for movies model, users model, and reviews and ratings model: 
@@ -38,7 +38,7 @@ Each movie can have multiple reviews and ratings.
 Attributes:
 - Username (string): The username of the user.
 - Email (string): The email address of the user. (optional)
-- Password (string): The hashed password of the user.
+- user intrests (string or array):a feild to strore user interests. (database schema)  
 
 Relationships:
 One-to-Many with Reviews and Ratings Model: Each user can create multiple reviews and ratings.
@@ -49,9 +49,9 @@ Attributes:
 - Review Text (string): The text of the movie review.
 - Rating (number): The numerical rating given to the movie.
 
-Relationships:
+## Relationships:
 Many-to-One with Movies Model: Each review and rating is associated with a single movie.
-Many-to-One with Users Model: Each review and rating is created by a single user
+Many-to-One with Users Model: Each review and rating is created by a single user 
 ---------------------------------------------------------------------------------------------------------------------------
 ### MVP and Stretch Goals 
 
