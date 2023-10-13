@@ -2,20 +2,20 @@
 (name is subject to change...)
 
 ## Project Overview
-This Movie Database App aims to create a user-friendly platform for users to explore and interact with movie information. Users can view movie details and leave reviews and ratings.
+This Movie Database App aims to create a user-friendly platform for users to explore and interact with movie information. Users can view movie details, leave reviews and ratings and explore their intrests.
 
 Key Features
--The following are key features for the online Movie Database App:
+-The following are key features for the MOVIEMATRIX App:
 
   ## Movie Listings:
 - Display a list of movies with basic details, including title, release year, director, and genre.
   ## Search and Filtering:
-- Implement search functionality to find movies by title or genre.
+- find movies by title or genre.
 - Allow basic sorting options.
   ## Review and Rating System:
 - Allow users to leave text-based reviews and numerical ratings for movies.
   ## User Management: 
-- Enable user to access app with a username/ name. aple to display intrests
+- Enable user to access app with a username/ name authorization. have ability to display interests
 --------------------------------------------------------------------------------------------------------------------------------------
 ## ERD 
 ### for movies model, users model, and reviews and ratings model: 
@@ -31,7 +31,7 @@ Attributes:
 - Poster URL (string): The URL of the movie's poster image.
 Relationships:
 One-to-Many with Reviews and Ratings Model:
-Each movie can have multiple reviews and ratings.
+Each movie can have multiple reviews and ratings by users.
 
 ## Users Model:
 
@@ -68,7 +68,7 @@ Many-to-One with Users Model: Each review and rating is created by a single user
 # Stretch goals: 
 
 - User Interaction: Allow users to comment on reviews and like/favorite movies. This adds a social aspect to the application.
-- External APIs: for Integrating external movie data APIs (e.g. IMDB) for database to have detailed movie information, images, and trailers.
+- External APIs: for Integrating external movie data APIs (e.g. Omdb) for database to have detailed movie information, images, and trailers.
 - Advanced Search and Filters: Enhance the search and filtering options with additional criteria, such as release year, cast, or advanced genre options.
 - Advanced Search and Filters: Enhances the search and filtering options with additional criteria, such as release year, cast, or advanced genre options. (think LetterBoxd)
 
