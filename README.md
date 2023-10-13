@@ -1,4 +1,5 @@
-# MovieMAtrix - (an online movie-database) -
+# MovieMatrix - (an online movie-database) -
+(name is subject to change...)
 
 ## Project Overview
 This Movie Database App aims to create a user-friendly platform for users to explore and interact with movie information. Users can view movie details and leave reviews and ratings.
@@ -6,18 +7,15 @@ This Movie Database App aims to create a user-friendly platform for users to exp
 Key Features
 -The following are key features for the online Movie Database App:
 
-## Movie Listings:
--Display a list of movies with basic details, including title, release year, director, and genre.
-
-## Search and Filtering:
--Implement search functionality to find movies by title or genre.
--Allow basic sorting options.
-
-## Review and Rating System:
+  ## Movie Listings:
+- Display a list of movies with basic details, including title, release year, director, and genre.
+  ## Search and Filtering:
+- Implement search functionality to find movies by title or genre.
+- Allow basic sorting options.
+  ## Review and Rating System:
 - Allow users to leave text-based reviews and numerical ratings for movies.
-  
-## User Management: 
--Enable user registration with a username. authentication and authorization for secure access to the app.
+  ## User Management: 
+- Enable user registration with a username. authentication and authorization for secure access to the app.
 --------------------------------------------------------------------------------------------------------------------------------------
 ## ERD 
 ### for movies model, users model, and reviews and ratings model: 
