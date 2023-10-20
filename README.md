@@ -1,5 +1,5 @@
-# MovieMatrix - (an online movie-database) -
-(name is subject to change...)
+# Studio Ghibli DB  - (an online movie-database) -
+
 
 ## Project Overview
 This Movie Database App aims to create a user-friendly platform for users to explore and interact with movie information. Users can view movie details, leave reviews and ratings and explore their intrests.
@@ -16,9 +16,16 @@ Key Features
 - Allow users to leave text-based reviews and numerical ratings for movies.
   ## User Management: 
 - Enable user to access app with a username/ name authorization. have ability to display interests
+
+## wireframe 
+
+![Image 10-20-23 at 9 35 AM](https://github.com/BlenTesfaye/MovieMatrix/assets/143666820/b2b609a3-30a0-4db2-b027-e4238c9825a2)
+
 --------------------------------------------------------------------------------------------------------------------------------------
 ## ERD 
-### for movies model, users model, and reviews and ratings model: 
+### ![Image 10-20-23 at 9 38 AM](https://github.com/BlenTesfaye/MovieMatrix/assets/143666820/1bb868ed-85b1-4eec-8611-7e8a5f6d2d40)
+for movies model, users model, and reviews and ratings model: 
+
 
 ## Movies Model:
 
