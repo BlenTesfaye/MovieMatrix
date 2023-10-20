@@ -19,7 +19,8 @@ Key Features
 
 ## wireframe 
 
-![Image 10-20-23 at 9 35 AM](https://github.com/BlenTesfaye/MovieMatrix/assets/143666820/b2b609a3-30a0-4db2-b027-e4238c9825a2)
+### ![Image 10-20-23 at 9 35 AM](https://github.com/BlenTesfaye/MovieMatrix/assets/143666820/3f98a327-87e3-4a6b-8acd-020d8dc3c3e6)
+
 
 --------------------------------------------------------------------------------------------------------------------------------------
 ## ERD 
